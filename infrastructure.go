@@ -20,10 +20,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/conformal/btcjson"
-	"github.com/conformal/btcws"
-	"github.com/conformal/go-socks"
-	"github.com/conformal/websocket"
+	"github.com/monetas/btcjson"
+	"github.com/monetas/btcws"
+	"github.com/monetas/go-socks"
+	"github.com/monetas/websocket"
 )
 
 var (

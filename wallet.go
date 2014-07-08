@@ -7,11 +7,11 @@ package btcrpcclient
 import (
 	"encoding/json"
 
-	"github.com/conformal/btcjson"
-	"github.com/conformal/btcnet"
-	"github.com/conformal/btcutil"
-	"github.com/conformal/btcwire"
-	"github.com/conformal/btcws"
+	"github.com/monetas/btcjson"
+	"github.com/monetas/btcnet"
+	"github.com/monetas/btcutil"
+	"github.com/monetas/btcwire"
+	"github.com/monetas/btcws"
 )
 
 // *****************************
