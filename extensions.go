@@ -341,7 +341,7 @@ func (r FutureGetTxOutResult) Receive() (*btcjson.GetTxOutResult, error) {
 
 	// Unmarshal result as an array of getpeerinfo result objects.
 	var txOutInfo *btcjson.GetTxOutResult
-	err = json.Unmarshal(res, txOutInfo)
+	err = json.Unmarshal(res, &txOutInfo)
 	if err != nil {
 		return nil, err
 	}
