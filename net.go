@@ -7,7 +7,7 @@ package btcrpcclient
 import (
 	"encoding/json"
 
-	"github.com/btcsuite/btcjson"
+	"github.com/monetas/btcjson"
 )
 
 // AddNodeCommand enumerates the available commands that the AddNode function
